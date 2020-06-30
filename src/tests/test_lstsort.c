@@ -6,7 +6,7 @@
 /*   By: tbruinem <tbruinem@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/06/18 19:38:57 by tbruinem      #+#    #+#                 */
-/*   Updated: 2020/06/24 16:22:40 by tbruinem      ########   odam.nl         */
+/*   Updated: 2020/06/30 14:27:02 by tbruinem      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ void		test_ft_list_sort(char *p1)
 	printf("---LST_SORT---\n");
 	printf("BEFORE:\n");
 	ft_list_print(head);
-	ft_list_sort(&head, &numcmp);
+	ft_list_sort(&head, &ft_strcmp);
 	printf("AFTER:\n");
 	ft_list_print(head);
 	cleanup(head);

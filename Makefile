@@ -6,15 +6,15 @@
 #    By: tbruinem <tbruinem@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/06/21 18:00:17 by tbruinem      #+#    #+#                  #
-#    Updated: 2020/06/24 15:14:20 by tbruinem      ########   odam.nl          #
+#    Updated: 2020/06/30 14:25:24 by tbruinem      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
-LSMINCL =	../
-LSMLIB	=	../
+LSMINCL =	./
+LSMLIB	=	./
 LSMNAME	=	libasm.a
 
-NAME	=	lasm_test
+NAME	=	test
 FLAGS	=	-Wall -Wextra -Werror
 INCL	=	-I ./incl -I $(LSMINCL)
 ifeq ($(DEBUG),1)
